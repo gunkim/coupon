@@ -1,6 +1,6 @@
-package github.gunkim.coupon.domain.condition;
+package github.gunkim.coupon.domain.model.condition;
 
-import github.gunkim.coupon.domain.CouponContext;
+import github.gunkim.coupon.domain.model.coupon.CouponContext;
 
 public class ProductCondition implements CouponCondition {
     @Override

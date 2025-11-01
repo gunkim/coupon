@@ -1,10 +1,10 @@
-package github.gunkim.coupon.domain;
+package github.gunkim.coupon.domain.model.coupon;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 public record Coupon(
-        Long id,
+        CouponId id,
         String name,
         String code,
         CouponType type,
