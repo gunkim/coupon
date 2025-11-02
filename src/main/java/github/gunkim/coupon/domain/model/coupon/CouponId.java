@@ -1,4 +1,6 @@
 package github.gunkim.coupon.domain.model.coupon;
 
-public record CouponId(Long value) {
+import java.util.UUID;
+
+public record CouponId(UUID value) {
 }
